@@ -1,3 +1,4 @@
+#Створити масив із 20 елементів і заповнити його числами, введеними користувачем.
 lst = []
 lst_size = 20
 
@@ -11,6 +12,6 @@ for i in range(lst_size):
             lst.append(number)
             break
         except ValueError:
-            print("poshel v zhopy")
+            print("poshel v popy")
 
 print("\nVAsh masiv: ", lst)
